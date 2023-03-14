@@ -1,0 +1,264 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .index-form{
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.index-form h2{
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.label-form{
+  padding: 10px 15px;
+}
+
+.label-form input{
+  width: 320px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  color: #464646;
+}
+
+.label-form button{
+  width: 340px;
+  padding: 8px;
+  background: #269CF0;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.label-form button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  color: #000000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+nav{
+  margin-right: 10px;
+}
+
+.welcome{
+  width: 100%;
+  height: 50px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.welcome h4{
+  padding: 8px;
+  font-size: 1rem;
+  color: white;
+}
+
+.coach-section{
+  margin-top: 12px;
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.coach-section h3{
+  font-size: 1.5rem;
+  padding: 12px;
+}
+
+.coach-section h3 a{
+  color: #474747;
+  text-decoration: none;
+}
+
+.coach-section h3 a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+
+.coach-section p{
+  font-size: 1rem;
+  padding: 0 12px;
+}
+
+.coach-section input[type=date]{
+  padding: 8px;
+  margin-left: 12px;
+  width: 200px;
+}
+
+.coach-section button{
+  padding: 8px;
+  margin-left: 12px;
+  width: 200px;
+  background: #269CF0;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.coach-section button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+.coach-section table{
+  width: 400px;
+  padding: 12px;
+  text-align: left;
+}
+
+#errormsg{
+  color: red;
+}
+
+.blur{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+.blur:hover{
+  cursor: pointer;
+}
+
+.message{
+  width: 600px;
+  min-height: 350px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.message img{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.message h3{
+  text-align: center;
+  padding: 12px;
+}
+
+.message p{
+  padding: 12px;
+}
+
+.message p a{
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.message p a:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.message #again{
+  background: #51BD65;
+}
+
+.message #exit{
+  background: #BD5151;
+}
+
+/*viewports*/
+@media only screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .message{
+    width: 80%;
+  }
+}

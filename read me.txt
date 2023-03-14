@@ -1,0 +1,3 @@
+Use either tenniss1.sql
+
+In connection.php add your database password 
