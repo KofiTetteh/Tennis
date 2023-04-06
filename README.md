@@ -15,7 +15,7 @@ This website is built using the following technologies:
 
 Programming Language: PHP
 Database: MySQL
-Front-end: HTML, CSS, JavaScript
+Front-end: HTML, CSS
 Installation
 
 To install and run the website, follow these steps:
