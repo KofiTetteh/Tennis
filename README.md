@@ -23,7 +23,6 @@ To install and run the website, follow these steps:
 Clone the repository.
 Install PHP and MySQL on your system.
 Create a MySQL database and import the database.sql file.
-Set up the necessary environment variables in a .env file.
 Start a local web server, such as Apache or Nginx, and point it to the cloned repository directory.
 
 # Usage
